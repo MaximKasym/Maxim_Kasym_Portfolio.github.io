@@ -111,6 +111,9 @@ main{
 	justify-content: flex-start;
 	flex-wrap: wrap;
 }
+.sec1_item1>p{
+	width: 100%;
+}
 .sec1_item2{
 	width: 40%;
 	height: 100px;
