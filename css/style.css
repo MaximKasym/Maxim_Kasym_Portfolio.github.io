@@ -28,6 +28,10 @@ header{
 }
 .hdr_item1>h3{
 	color: #a43bf5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 nav{
 	width: 50%;
@@ -36,7 +40,12 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 }
-
+nav>a{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
 .hdr_item2{
 	width: 40%;
 	height: auto;
